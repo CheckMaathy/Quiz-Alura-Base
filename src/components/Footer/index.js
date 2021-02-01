@@ -10,6 +10,7 @@ const FooterWrapper = styled.footer`
   img {
     width: 58px;
     margin-right: 23px;
+
   }
   a {
     color: white;
@@ -18,9 +19,11 @@ const FooterWrapper = styled.footer`
     &:hover,
     &:focus {
       opacity: .5;
+
     }
     span {
       text-decoration: underline;
+
     }
   }
 `;
