@@ -76,7 +76,7 @@ export default function Home() {
                 value={name}
               />
               <Button type="submit" disabled={name.length === 0}>
-                {`Jogar como ${name}`}
+                {`Treinador ${name}`}
               </Button>
             </form>
           </Widget.Content>
