@@ -61,9 +61,11 @@ export default function Home() {
           </Widget.Header>
           <Widget.Content>
             <p>{db.description}</p>
+            {/* eslint-disable-next-line func-names */}
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
+              // eslint-disable-next-line no-console
               console.log('Fazendo uma submissão por meio do react');
             }}
             >
