@@ -1,7 +1,7 @@
 {
   "bg": "https://i.imgur.com/h0DxQtG.jpg",
-  "title": "Quiz Pokémon #AluraQuiz",
-  "description": "Um quiz rápido sobre o mundo do JavaScript",
+  "title": "Quiz Pokémon",
+  "description": "Vamos Descobrir quantos Pokémons você conhece!",
   "questions": [
     {
       "image": "https://media.giphy.com/media/j5P0DQIOf4PonLi55G/giphy.gif",
@@ -10,7 +10,8 @@
       "answer": 1,
       "alternatives": [
         "São a mesma coisa",
-        "O = significa atribuição de valor. Já == verifica a igualdade do valor, enquanto === verifica valor e tipo de variável."
+        "O = significa atribuição de valor. Já == verifica a igualdade do valor, enquanto === verifica valor e tipo de variável.",
+        "Acho que podemos avançar para um state super avançado"
       ]
     },
     {
@@ -20,7 +21,8 @@
       "answer": 0,
       "alternatives": [
         "Number, String, Undefined, Null e Bool.",
-        "Int, String, Undefined, Null e Bool."
+        "Int, String, Undefined, Null e Bool.",
+        "Mano, quem é tipo de dado na fila do pão?"
       ]
     },
     {
@@ -29,7 +31,8 @@
       "answer": 1,
       "alternatives": [
         "São a mesma coisa",
-        "window é o escopo global no browser, e global no node"
+        "window é o escopo global no browser, e global no node",
+        "Quando uma aranha sobe pela parede, ela cria uma teia"
       ]
     },
     {
@@ -39,13 +42,13 @@
       "alternatives": [
         "JSONHttpRequest",
         "XMLHttpRequest",
-        "fetch"
+        "fetch",
+        "NDA"
       ]
     }
   ],
   "external": [
-    "https://aluraquiz-css.omariosouto.vercel.app/",
-    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+    "https://quiz-alura-base.checkmaathy.vercel.app/"
   ],
   "theme": {
     "colors": {
